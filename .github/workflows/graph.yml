@@ -20,6 +20,14 @@ jobs:
     
     steps:
       # Generate contribution graph SVG
+      - name: Set ENV
+        run: |
+          git config --global user.name "Artisan Snake BOT"
+          git config --global user.name
+          git config --global user.email "snake@artisanserver.com"
+          git config --global user.email
+          
+          
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
