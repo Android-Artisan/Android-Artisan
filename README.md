@@ -24,6 +24,8 @@ I build clean, optimized, and functional software for the Android community, wit
   <img src="https://github-readme-stats.vercel.app/api?username=Android-Artisan&show_icons=true&count_private=true&line_height=27&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Android-Artisan's GitHub Stats" />
 </p>
 
+![Snake animation](https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake-dark.svg)
+
 ---
 
 ### 📡 Connect With Me
