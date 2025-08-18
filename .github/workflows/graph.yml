@@ -3,32 +3,24 @@ name: generate animation
 on:
   # Run automatically every 12 hours
   schedule:
-    - cron: "0 */12 * * *" 
-  
+    - cron: "0 */12 * * *"
+
   # Allows manual run
   workflow_dispatch:
-  
+
   # Run on push to main
   push:
     branches:
       - main
 
 jobs:
-  snake:
+  generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
+
     steps:
-      # Generate contribution graph SVG
-      - name: Set ENV
-        run: |
-          git config --global user.name "Artisan Snake BOT"
-          git config --global user.name
-          git config --global user.email "snake@artisanserver.com"
-          git config --global user.email
-          
-          
-      - name: generate github-contribution-grid-snake.svg
+      # Generate GitHub contribution graph SVGs
+      - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -36,15 +28,15 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}   # Using your PAT instead of default
-      
-      # Push SVGs to the output branch
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+
+      # Push SVGs to the output branch with custom bot identity
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          committer_name: "Artisan Snake BOT"
-          committer_email: "snake@artisanserver.com"
+          committer: "Artisan Snake BOT <snake@artisanserver.com>"
+          author: "Artisan Snake BOT <snake@artisanserver.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
