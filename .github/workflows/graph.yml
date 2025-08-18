@@ -14,7 +14,7 @@ on:
       - main
 
 jobs:
-  generate:
+  snake:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     
@@ -39,10 +39,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}   # Using your PAT instead of default
       
       # Push SVGs to the output branch
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          committer_name: "Artisan Snake BOT"
+          committer_email: "snake@artisanserver.com"
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}   # Using your PAT instead of default
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
