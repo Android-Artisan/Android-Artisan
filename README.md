@@ -12,7 +12,7 @@ Hi, I'm **Android Artisan** — a passionate Android ROM developer focused on:
 - 🔧 Custom ROMs (One UI, Lineage etc.)
 - 📱 Legacy & Modern Samsung Devices
 - ⚙️ Kernel Tweaks, TWRP Mods, and Flashing Utilities
-- 🎨 One UI-style design, even in no-code tools like Niotron
+- 🎨 One UI-style design.
 
 I build clean, optimized, and functional software for the Android community, with a heavy focus on Exynos-powered devices.
 
