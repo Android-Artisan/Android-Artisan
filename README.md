@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hi There, I Break Phones! - BotchedRPR 2025</h1>
+<h1 align="center">Android-Artisan</h1>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Android-Artisan&style=for-the-badge" alt="Profile views" />
