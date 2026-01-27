@@ -39,6 +39,5 @@ I build clean, optimized, and functional software for the Android community, wit
 ### 📡 Connect With Me
 
 - XDA: [@Android-Artisan](https://xdaforums.com/m/android-artisan.13071848/)
-- Telegram: NONEXISTANT LMAO
-- Discord: @android_artisan
+- Discord: [@android_artisan](https://discord.com/users/1407033850336378880)
 - GitHub: [@Android-Artisan](https://github.com/Android-Artisan)
