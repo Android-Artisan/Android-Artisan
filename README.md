@@ -6,19 +6,18 @@
 
 ---
 
-### 🛠️ About Me
+### About Me
 
-Hi, I'm **Android Artisan** — a passionate Android ROM developer focused on:
-- 🔧 Custom ROMs (One UI, Lineage etc.)
-- 📱 Legacy & Modern Samsung Devices
-- ⚙️ Kernel Tweaks, TWRP Mods, and Flashing Utilities
-- 🎨 One UI-style design.
+Hi, I'm **Android Artisan**, a passionate Android ROM developer focused on:
+- Custom ROMs (One UI, Lineage etc.)
+- Legacy & Modern Samsung Devices
+- Snell's law-style design.
 
-I build clean, optimized, and functional software for the Android community, with a heavy focus on Exynos-powered devices.
+I try to build clean, optimized, and functional software for the Android community, with a heavy focus on Exynos-powered devices, maybe soon Snapdragon?.
 
 ---
 
-### 📊 GitHub Stats
+### GitHub Stats
 
 
 <picture>
@@ -36,7 +35,7 @@ I build clean, optimized, and functional software for the Android community, wit
   />
 </picture>
 
-### 📡 Connect With Me
+### Connect With Me
 
 - XDA: [@Android-Artisan](https://xdaforums.com/m/android-artisan.13071848/)
 - Discord: [@android_artisan](https://discord.com/users/1407033850336378880)
