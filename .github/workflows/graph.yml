@@ -1,9 +1,9 @@
 name: generate animation
 
 on:
-  # Run automatically every 12 hours
+  # Run automatically every 6 hours
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */6 * * *"
 
   # Allows manual run
   workflow_dispatch:
@@ -36,7 +36,7 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          committer: "Artisan Snake BOT <snake@artisanserver.com>"
-          author: "Artisan Snake BOT <snake@artisanserver.com>"
+          committer: "Android-Artisan <romartisan2025@gmail.com>"
+          author: "Artisan Snake BOT <snake@ArtisanROM.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
